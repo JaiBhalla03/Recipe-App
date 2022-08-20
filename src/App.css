@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nanum+Gothic:wght@400;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,400&family=Quicksand:wght@300;400;500;600;700&family=Sen&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Sen', sans-serif;
+}
+
+
+.mainNavBar{
+    display: flex;
+    background-color: rgb(18, 180, 53);
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.mainNavBar h3{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    padding: 1rem 0rem 0rem 1rem;
+
+}
+
+
+.navBar{
+    background-color: rgb(18, 180, 53);
+    padding: 1rem;
+}
+
+.navBar input{
+    height: 2rem;
+    width: 14rem;
+    margin: 0px 10px 0px 0px;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(18, 180, 53);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.navBar input:focus{
+    outline: none;
+}
+
+.navBar button{
+    height: 2rem;
+    width: 6rem;
+    margin: 0px 10px 0px 0px;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(18, 180, 53);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.navBar button:hover{
+    background-color: rgb(67, 192, 94);
+    cursor: pointer;
+}
+
+.maincontent{
+    padding: 100px 60px 0px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(129, 228, 134);
+}
+
+
+.recipeCard{
+    padding: 20px;
+    width: 350px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: rgb(20, 209, 105);
+    border: none;
+}
+
+.recipeCard h1{
+    color: #fff;
+    font-weight: 200;
+    height: 60px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.recipeCard img{
+    margin: 10px 0px 10px 0px;
+    border-radius: 15px;
+}
+
+.recipeCard p{
+    color: #fff;
+    font-weight: 50;
+}
+
+
+.overlay{
+    background-color: rgb(20, 209, 105);
+}
